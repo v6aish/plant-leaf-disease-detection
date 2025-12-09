@@ -1,102 +1,33 @@
-# -----------------------------
-# Python
-# -----------------------------
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.pdb
-*.so
-*.dll
-
 # Virtual environments
-env/
 venv/
-ENV/
-.venv/
+env/
+tf_env/
+tf_env_old/
 
-# Jupyter Notebook checkpoints
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Python cache & temp files
-*.log
-*.pot
-*.mo
-*.swp
-*.swo
-*.tmp
+# Dataset folders
+Dataset/
+data/
+Training/Dataset/
+Training/data/
 
-# -----------------------------
-# Machine Learning / Data
-# -----------------------------
-# Model weights
+# Model files (large)
 *.h5
 *.hdf5
-*.keras
 *.ckpt
-*.ckpt.*
-*.pth
-*.pt
-*.tflite
 
-# TensorFlow & PyTorch folders
-logs/
-tensorboard/
-checkpoints/
-saved_models/
-
-# Datasets (large files should not go to GitHub)
-dataset/
-datasets/
-data/
+# CSV feature files
 *.csv
-*.npz
-*.npy
-*.pkl
-*.pickle
 
-# -----------------------------
-# Images / Uploads
-# -----------------------------
-uploads/
-media/
-staticfiles/
+# Node modules for frontend
+potato-disease-classification/node_modules/
 
-# -----------------------------
-# IDE / Editor
-# -----------------------------
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
-
-# -----------------------------
-# Django / Flask (if used later)
-# -----------------------------
-*.db
-*.sqlite3
-*.sqlite
-*.pyproj
-*.pid
-
-# Django collected static files
-static/
-staticfiles/
-
-# -----------------------------
-# Node / React Frontend (optional)
-# -----------------------------
-node_modules/
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-dist/
+# Build folders
 build/
-
-# -----------------------------
-# System Files
-# -----------------------------
-.DS_Store
-Thumbs.db
-desktop.ini
-
+dist/

@@ -31,3 +31,4 @@ potato-disease-classification/node_modules/
 # Build folders
 build/
 dist/
+tf_env_old/

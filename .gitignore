@@ -1,34 +1,40 @@
-# Virtual environments
-venv/
-env/
-tf_env/
-tf_env_old/
-
-# Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Jupyter checkpoints
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Dataset folders
-Dataset/
-data/
-Training/Dataset/
-Training/data/
-
-# Model files (large)
-*.h5
-*.hdf5
-*.ckpt
-
-# CSV feature files
-*.csv
-
-# Node modules for frontend
-potato-disease-classification/node_modules/
-
-# Build folders
-build/
-dist/
+# Virtual environments
 tf_env_old/
+env/
+venv/
+.venv/
+
+# Python IDEs
+.vscode/
+.idea/
+
+# ML / Data files (large files you don't want on GitHub)
+*.h5
+*.csv
+*.pkl
+*.joblib
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and database
+*.log
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore API dependency caches
+__pycache__/
+*.pyc
